@@ -1,5 +1,11 @@
 # @usedapp/example
 
+## 0.2.6
+
+### Patch Changes
+
+- 3536be0: Add useSendTransaction to example
+
 ## 0.2.5
 
 ### Patch Changes
