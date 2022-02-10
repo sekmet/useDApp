@@ -1,4 +1,4 @@
-# @usedapp/extension
+# @usedappify/extension
 
 ## 0.3.0
 

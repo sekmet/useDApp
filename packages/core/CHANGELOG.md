@@ -1,4 +1,11 @@
-# @usedapp/core
+# @usedappify/core
+
+## 0.11.2
+
+- 0x0000: Added the Harmony Testnet network
+- 0x0000: Added the Fantom Testnet network
+- 0x0000: Added the Avalanche Testnet network
+- 0x0000: Readme updates
 
 ## 0.11.0
 

@@ -1,5 +1,5 @@
 {
-  "name": "usedapp",
+  "name": "usedappify",
   "private": true,
   "engines": {
     "node": ">=10",
@@ -18,7 +18,7 @@
     "release": "yarn build && yarn changeset publish"
   },
   "dependencies": {
-    "@changesets/cli": "^2.14.1",
+    "@changesets/cli": "^2.20.0",
     "ethers": "5.5.1",
     "prettier": "2.1.2",
     "wsrun": "^5.2.1"

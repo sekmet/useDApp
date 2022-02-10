@@ -61,7 +61,7 @@ function installHook() {
   const hook = {
     useDApp: false,
     init() {
-      this.useDApp = true
+      this.useDAppify = true
       window.postMessage({
         source: 'usedapp-hook-init',
         useDAppDetected: true,

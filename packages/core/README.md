@@ -1,4 +1,4 @@
-# useDapp
+# useDappify
 
 ### Ethereum 🤝 React 
 Framework for rapid Dapp development.  
@@ -19,7 +19,8 @@ Combines the best practices:
 ## Example
 
 ```tsx
-import { Mainnet } from '@usedapp/core/modal/chain/ethereum'
+import { Mainnet } from '@usedappify/core/modal/chain/ethereum'
+import { useEthers, useEtherBalance } from '@usedappify/core'
 
 const config = {
   readOnlyChainId: Mainnet.chainId,
