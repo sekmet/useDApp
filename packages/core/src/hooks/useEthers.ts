@@ -40,7 +40,7 @@ export function useEthers(): Web3Ethers {
     active: !!provider,
     activate: async (providerOrConnector: SupportedProviders) => {
       if ('getProvider' in providerOrConnector) {
-        console.warn('Using web3-react connectors is deprecated and may lead to unexpected behavior.')
+        console.log('####### Using web3-react connectors is deprecated and may lead to unexpected behavior.')
         await providerOrConnector.activate()
         return activate(await providerOrConnector.getProvider())
       }

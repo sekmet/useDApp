@@ -5,6 +5,10 @@ require("@nomiclabs/hardhat-waffle");
 const HARMONY_PRIVATE_KEY =
     process.env.HARMONY_PRIVATE_KEY ||
     "";
+    
+const AURORA_PRIVATE_KEY =
+    process.env.AURORA_PRIVATE_KEY ||
+    "";
 
 // This is a sample Hardhat task. To learn how to create your own go to
 // https://hardhat.org/guides/create-task.html
@@ -48,6 +52,13 @@ module.exports = {
             url: `https://api.s0.t.hmny.io`,
             accounts: [`0x${HARMONY_PRIVATE_KEY}`]
         },
+        auroratestnet: {
+          url: 'https://testnet.aurora.dev',
+          //gasPrice: 120 * 1000000000,
+          chainId: 1313161555,
+          accounts: [`${AURORA_PRIVATE_KEY}`],
+          saveDeployments: true,
+        },          
         coverage: {
             url: "http://127.0.0.1:8555", // Coverage launches its own ganache-cli client
         },

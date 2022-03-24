@@ -1,11 +1,14 @@
 # @usedappify/core
 
+## 0.11.21
+- Added Aurora Network
+
 ## 0.11.2
 
-- 0x0000: Added the Harmony Testnet network
-- 0x0000: Added the Fantom Testnet network
-- 0x0000: Added the Avalanche Testnet network
-- 0x0000: Readme updates
+- a4404e0: Added the Harmony Testnet network
+- a4404e0: Added the Fantom Testnet network
+- a4404e0: Added the Avalanche Testnet network
+- a4404e0: Readme updates
 
 ## 0.11.0
 

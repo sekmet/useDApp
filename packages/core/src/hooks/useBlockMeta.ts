@@ -13,6 +13,6 @@ export function useBlockMeta() {
 
   return {
     timestamp: timestamp !== undefined ? new Date(BigNumber.from(timestamp).mul(1000).toNumber()) : undefined,
-    difficulty: difficulty !== undefined ? BigNumber.from(difficulty) : undefined,
+    difficulty: difficulty !== undefined ? BigNumber.from(difficulty) : undefined
   }
 }

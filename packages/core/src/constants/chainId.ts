@@ -34,6 +34,8 @@ import {
   ThetaTestnet,
   OptimismKovan,
   Optimism,
+  Aurora,
+  AuroraTestnet
 } from '../model'
 
 // rough alphabet order (put network from the same chain together)
@@ -72,6 +74,8 @@ export const DEFAULT_SUPPORTED_CHAINS = [
   ThetaTestnet,
   OptimismKovan,
   Optimism,
+  Aurora,
+  AuroraTestnet,  
 ]
 
 export enum ChainId {
@@ -110,4 +114,6 @@ export enum ChainId {
   Optimism = 10,
   Arbitrum = 42161,
   ArbitrumRinkeby = 421611,
+  Aurora = 1313161554,
+  AuroraTestnet = 1313161555,
 }
